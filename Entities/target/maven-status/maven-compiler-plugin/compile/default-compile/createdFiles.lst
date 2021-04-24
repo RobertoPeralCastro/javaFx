@@ -1,0 +1,2 @@
+trading\entities\Price.class
+trading\repositories\PricesRepository.class
