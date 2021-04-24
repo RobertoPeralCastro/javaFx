@@ -1,2 +1,3 @@
+trading\entities\Price$PriceBuilder.class
 trading\entities\Price.class
 trading\repositories\PricesRepository.class

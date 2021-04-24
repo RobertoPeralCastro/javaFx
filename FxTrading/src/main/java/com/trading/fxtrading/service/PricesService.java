@@ -6,25 +6,39 @@ import trading.entities.Price;
 import trading.repositories.PricesRepository;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
 public class PricesService
 {
-    @Autowired  private PricesRepository pricesRepository;
 
-    private final Double PRICE_MARGIN = 0.1;
+    private PricesRepository pricesRepository;
 
-    public List<Price> getPrices()
+    @Autowired
+    public PricesService(PricesRepository pricesRepository)
     {
-        return pricesRepository.findAll().stream().map(e-> modifyPricesMargin(e)).collect(Collectors.toList());
+        this.pricesRepository=pricesRepository;
     }
 
-    public Price modifyPricesMargin(Price price)
+    /**
+     * returns a list of all the prices from the database or null if the list is empty.
+     * @return
+     */
+    public Optional<List<Price>> getPrices()
     {
-        price.setAsk(price.getAsk() + PRICE_MARGIN);
-        price.setBid(price.getBid() - PRICE_MARGIN);
-        return price;
+        List<Price> prices = pricesRepository.findAll();
+        if(prices.size()==0)
+        {
+            return Optional.ofNullable(null);
+        }
+        else
+        {
+            return Optional.of(prices);
+        }
     }
+
+
+
 
 }

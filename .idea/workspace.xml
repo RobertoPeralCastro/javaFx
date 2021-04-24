@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66cb2717-c7b2-4bb3-bedc-bdd8fef39855" name="Default Changelist" comment="" />
+    <list default="true" id="66cb2717-c7b2-4bb3-bedc-bdd8fef39855" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_30_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Entities.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Entities.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/src/main/java/trading/entities/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/src/main/java/trading/entities/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/src/main/java/trading/repositories/PricesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/src/main/java/trading/repositories/PricesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FxTrading/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FxTrading/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/FxTradingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/FxTradingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/JMSConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/controllers/PricesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/controllers/PricesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/service/PricesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/service/PricesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/subscriptors/PricesTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/subscriptors/PricesTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FxTrading/src/test/java/com/trading/fxtrading/FxTradingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/FxTrading/src/test/java/com/trading/fxtrading/FxTradingApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +33,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="Entities/invalid/JPA" />
+      <facet id="Entities/invalid/Spring" />
+    </ignored-facets>
   </component>
   <component name="ProjectId" id="1rXgkSkI8nVBRDdLJIch81ndDM0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -41,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FxTrading/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FxTrading" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -54,7 +79,7 @@
       <recent name="C:\proyectos\javaFx" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FxTradingApplicationTests.testGetPricesEmpty">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -66,6 +91,105 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FxTradingApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.trading.fxtrading.FxTradingApplication" />
+      <module name="FxTrading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FxTrading" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.trading.fxtrading.FxTradingApplication" />
+      <module name="FxTrading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FxTrading" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FxTradingApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FxTrading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trading.fxtrading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trading.fxtrading" />
+      <option name="MAIN_CLASS_NAME" value="com.trading.fxtrading.FxTradingApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FxTradingApplicationTests.testConvertIncorrectNumberOfAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FxTrading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trading.fxtrading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trading.fxtrading" />
+      <option name="MAIN_CLASS_NAME" value="com.trading.fxtrading.FxTradingApplicationTests" />
+      <option name="METHOD_NAME" value="testConvertIncorrectNumberOfAttributes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FxTradingApplicationTests.testGetPricesEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FxTrading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trading.fxtrading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trading.fxtrading" />
+      <option name="MAIN_CLASS_NAME" value="com.trading.fxtrading.FxTradingApplicationTests" />
+      <option name="METHOD_NAME" value="testGetPricesEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FxTradingApplicationTests.testGetPricesOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FxTrading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trading.fxtrading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trading.fxtrading" />
+      <option name="MAIN_CLASS_NAME" value="com.trading.fxtrading.FxTradingApplicationTests" />
+      <option name="METHOD_NAME" value="testGetPricesOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FxTradingApplicationTests.testProcessCorrectFeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FxTrading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trading.fxtrading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trading.fxtrading" />
+      <option name="MAIN_CLASS_NAME" value="com.trading.fxtrading.FxTradingApplicationTests" />
+      <option name="METHOD_NAME" value="testProcessCorrectFeed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FxTradingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="FxTrading" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.trading.fxtrading.FxTradingApplication" />
@@ -73,6 +197,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.FxTradingApplication" />
+      <item itemvalue="JUnit.FxTradingApplicationTests" />
+      <item itemvalue="JUnit.FxTradingApplicationTests.testProcessCorrectFeed" />
+      <item itemvalue="JUnit.FxTradingApplicationTests.testConvertIncorrectNumberOfAttributes" />
+      <item itemvalue="JUnit.FxTradingApplicationTests.testGetPricesOk" />
+      <item itemvalue="JUnit.FxTradingApplicationTests.testGetPricesEmpty" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FxTradingApplicationTests.testGetPricesEmpty" />
+        <item itemvalue="JUnit.FxTradingApplicationTests" />
+        <item itemvalue="JUnit.FxTradingApplicationTests.testGetPricesOk" />
+        <item itemvalue="JUnit.FxTradingApplicationTests.testProcessCorrectFeed" />
+        <item itemvalue="JUnit.FxTradingApplicationTests.testConvertIncorrectNumberOfAttributes" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,20 +232,37 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/subscriptors/PricesTransformer.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FxTrading/src/main/java/com/trading/fxtrading/controllers/PricesController.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/FxTrading/src/test/java/com/trading/fxtrading/FxTradingApplicationTests.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="transformedPrice.getAsk().equals(1.2)" />
+        <watch expression="transformedPrice.getTimestamp().equals(dateTime)" />
+        <watch expression="transformedPrice.getId()==(106)" />
+        <watch expression="transformedPrice.getBid().equals(1.1)" />
+        <watch expression="transformedPrice.getInstrumentName().equals(&quot;EUR/USD&quot;)" />
+        <watch expression="obtainedPrices.get().size()" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
